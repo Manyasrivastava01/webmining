@@ -1,0 +1,21 @@
+# Datasets and ZIPs
+data/
+*.zip
+*.csv
+!results/comparison_table.csv
+
+# Large Model Files
+models/faiss_index.bin
+models/chunk_metadata.pkl
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / IDE
+.vscode/
+.idea/
+.streamlit/
+Thumbs.db
+Desktop.ini

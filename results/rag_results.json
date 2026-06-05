@@ -1,0 +1,18 @@
+{
+    "accuracy": 0.8,
+    "precision": 0.7960526315789473,
+    "recall": 0.8066666666666666,
+    "f1_score": 0.8013245033112583,
+    "confusion_matrix": [
+        [
+            119,
+            31
+        ],
+        [
+            29,
+            121
+        ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n        REAL       0.80      0.79      0.80       150\n        FAKE       0.80      0.81      0.80       150\n\n    accuracy                           0.80       300\n   macro avg       0.80      0.80      0.80       300\nweighted avg       0.80      0.80      0.80       300\n",
+    "mocked": true
+}

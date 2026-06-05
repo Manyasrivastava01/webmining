@@ -13,5 +13,5 @@
             5321
         ]
     ],
-    "classification_report": "              precision    recall  f1-score   support\n\n        REAL       0.96      0.95      0.96      6871\n        FAKE       0.94      0.95      0.95      5605\n\n    accuracy                           0.95     12476\n   macro avg       0.95      0.95      0.95     12476\nweighted avg       0.95      0.95      0.95     12476\n"
+    "classification_report": "              precision    recall  f1-score   support\n\n        FAKE       0.96      0.95      0.96      6871\n        REAL       0.94      0.95      0.95      5605\n\n    accuracy                           0.95     12476\n   macro avg       0.95      0.95      0.95     12476\nweighted avg       0.95      0.95      0.95     12476\n"
 }

@@ -58,7 +58,7 @@ def main():
     acc = accuracy_score(y_test, y_pred)
     prec, rec, f1, _ = precision_recall_fscore_support(y_test, y_pred, average="binary")
     conf_mat = confusion_matrix(y_test, y_pred).tolist()
-    class_report = classification_report(y_test, y_pred, target_names=["REAL", "FAKE"])
+    class_report = classification_report(y_test, y_pred, target_names=["FAKE", "REAL"])
     
     print("\nBaseline Model Performance:")
     print(f"Accuracy:  {acc:.4f}")
